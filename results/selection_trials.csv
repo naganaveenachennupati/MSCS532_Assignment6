@@ -1,0 +1,201 @@
+algorithm,distribution,size,k,trial,time_ms
+Deterministic,Random,100,50,1,0.2103
+Randomized,Random,100,50,1,0.0902
+Deterministic,Random,100,50,2,0.2282
+Randomized,Random,100,50,2,0.0621
+Deterministic,Random,100,50,3,0.1918
+Randomized,Random,100,50,3,0.0626
+Deterministic,Random,100,50,4,0.1997
+Randomized,Random,100,50,4,0.0712
+Deterministic,Random,100,50,5,0.2273
+Randomized,Random,100,50,5,0.2081
+Deterministic,Random,500,250,1,0.9033
+Randomized,Random,500,250,1,0.2323
+Deterministic,Random,500,250,2,0.7013
+Randomized,Random,500,250,2,0.5567
+Deterministic,Random,500,250,3,0.6655
+Randomized,Random,500,250,3,0.2564
+Deterministic,Random,500,250,4,0.6644
+Randomized,Random,500,250,4,0.1958
+Deterministic,Random,500,250,5,0.5574
+Randomized,Random,500,250,5,0.2399
+Deterministic,Random,1000,500,1,1.2097
+Randomized,Random,1000,500,1,0.3066
+Deterministic,Random,1000,500,2,1.2696
+Randomized,Random,1000,500,2,0.8691
+Deterministic,Random,1000,500,3,1.5867
+Randomized,Random,1000,500,3,0.6744
+Deterministic,Random,1000,500,4,1.1952
+Randomized,Random,1000,500,4,0.415
+Deterministic,Random,1000,500,5,1.4371
+Randomized,Random,1000,500,5,0.7692
+Deterministic,Random,2000,1000,1,3.1403
+Randomized,Random,2000,1000,1,0.7921
+Deterministic,Random,2000,1000,2,1.3
+Randomized,Random,2000,1000,2,0.726
+Deterministic,Random,2000,1000,3,2.586
+Randomized,Random,2000,1000,3,0.8672
+Deterministic,Random,2000,1000,4,3.2657
+Randomized,Random,2000,1000,4,0.6125
+Deterministic,Random,2000,1000,5,2.3841
+Randomized,Random,2000,1000,5,0.6866
+Deterministic,Random,5000,2500,1,3.5063
+Randomized,Random,5000,2500,1,2.0319
+Deterministic,Random,5000,2500,2,6.4499
+Randomized,Random,5000,2500,2,2.0986
+Deterministic,Random,5000,2500,3,6.4552
+Randomized,Random,5000,2500,3,2.0297
+Deterministic,Random,5000,2500,4,6.0313
+Randomized,Random,5000,2500,4,2.898
+Deterministic,Random,5000,2500,5,6.7494
+Randomized,Random,5000,2500,5,2.1101
+Deterministic,Sorted,100,50,1,0.096
+Randomized,Sorted,100,50,1,0.0204
+Deterministic,Sorted,100,50,2,0.0968
+Randomized,Sorted,100,50,2,0.033
+Deterministic,Sorted,100,50,3,0.0879
+Randomized,Sorted,100,50,3,0.0428
+Deterministic,Sorted,100,50,4,0.0865
+Randomized,Sorted,100,50,4,0.0324
+Deterministic,Sorted,100,50,5,0.0883
+Randomized,Sorted,100,50,5,0.0799
+Deterministic,Sorted,500,250,1,0.4373
+Randomized,Sorted,500,250,1,0.1905
+Deterministic,Sorted,500,250,2,0.4272
+Randomized,Sorted,500,250,2,0.2043
+Deterministic,Sorted,500,250,3,0.4306
+Randomized,Sorted,500,250,3,0.2333
+Deterministic,Sorted,500,250,4,0.4341
+Randomized,Sorted,500,250,4,0.1496
+Deterministic,Sorted,500,250,5,0.4177
+Randomized,Sorted,500,250,5,0.1748
+Deterministic,Sorted,1000,500,1,0.8462
+Randomized,Sorted,1000,500,1,0.3003
+Deterministic,Sorted,1000,500,2,1.4931
+Randomized,Sorted,1000,500,2,0.3232
+Deterministic,Sorted,1000,500,3,1.0383
+Randomized,Sorted,1000,500,3,0.2218
+Deterministic,Sorted,1000,500,4,0.8483
+Randomized,Sorted,1000,500,4,0.2514
+Deterministic,Sorted,1000,500,5,0.8472
+Randomized,Sorted,1000,500,5,0.356
+Deterministic,Sorted,2000,1000,1,1.667
+Randomized,Sorted,2000,1000,1,0.4623
+Deterministic,Sorted,2000,1000,2,1.6474
+Randomized,Sorted,2000,1000,2,0.5577
+Deterministic,Sorted,2000,1000,3,1.6771
+Randomized,Sorted,2000,1000,3,0.6273
+Deterministic,Sorted,2000,1000,4,1.6863
+Randomized,Sorted,2000,1000,4,0.4706
+Deterministic,Sorted,2000,1000,5,1.8081
+Randomized,Sorted,2000,1000,5,0.6047
+Deterministic,Sorted,5000,2500,1,4.0498
+Randomized,Sorted,5000,2500,1,1.0891
+Deterministic,Sorted,5000,2500,2,4.0535
+Randomized,Sorted,5000,2500,2,1.5257
+Deterministic,Sorted,5000,2500,3,4.7714
+Randomized,Sorted,5000,2500,3,2.6524
+Deterministic,Sorted,5000,2500,4,4.3761
+Randomized,Sorted,5000,2500,4,2.3781
+Deterministic,Sorted,5000,2500,5,4.2621
+Randomized,Sorted,5000,2500,5,0.9091
+Deterministic,Reverse Sorted,100,50,1,0.1231
+Randomized,Reverse Sorted,100,50,1,0.0311
+Deterministic,Reverse Sorted,100,50,2,0.2401
+Randomized,Reverse Sorted,100,50,2,0.0739
+Deterministic,Reverse Sorted,100,50,3,0.2069
+Randomized,Reverse Sorted,100,50,3,0.0421
+Deterministic,Reverse Sorted,100,50,4,0.1165
+Randomized,Reverse Sorted,100,50,4,0.0354
+Deterministic,Reverse Sorted,100,50,5,0.1138
+Randomized,Reverse Sorted,100,50,5,0.0548
+Deterministic,Reverse Sorted,500,250,1,0.6329
+Randomized,Reverse Sorted,500,250,1,0.1999
+Deterministic,Reverse Sorted,500,250,2,0.6338
+Randomized,Reverse Sorted,500,250,2,0.2103
+Deterministic,Reverse Sorted,500,250,3,0.6178
+Randomized,Reverse Sorted,500,250,3,0.1371
+Deterministic,Reverse Sorted,500,250,4,0.6221
+Randomized,Reverse Sorted,500,250,4,0.1381
+Deterministic,Reverse Sorted,500,250,5,0.6104
+Randomized,Reverse Sorted,500,250,5,0.1845
+Deterministic,Reverse Sorted,1000,500,1,1.3331
+Randomized,Reverse Sorted,1000,500,1,0.2955
+Deterministic,Reverse Sorted,1000,500,2,1.2478
+Randomized,Reverse Sorted,1000,500,2,0.4367
+Deterministic,Reverse Sorted,1000,500,3,1.2545
+Randomized,Reverse Sorted,1000,500,3,0.2768
+Deterministic,Reverse Sorted,1000,500,4,1.2678
+Randomized,Reverse Sorted,1000,500,4,0.3132
+Deterministic,Reverse Sorted,1000,500,5,1.2643
+Randomized,Reverse Sorted,1000,500,5,0.2078
+Deterministic,Reverse Sorted,2000,1000,1,2.8237
+Randomized,Reverse Sorted,2000,1000,1,0.664
+Deterministic,Reverse Sorted,2000,1000,2,2.6747
+Randomized,Reverse Sorted,2000,1000,2,0.408
+Deterministic,Reverse Sorted,2000,1000,3,2.5679
+Randomized,Reverse Sorted,2000,1000,3,0.5112
+Deterministic,Reverse Sorted,2000,1000,4,2.7024
+Randomized,Reverse Sorted,2000,1000,4,0.4088
+Deterministic,Reverse Sorted,2000,1000,5,2.5336
+Randomized,Reverse Sorted,2000,1000,5,0.814
+Deterministic,Reverse Sorted,5000,2500,1,8.5356
+Randomized,Reverse Sorted,5000,2500,1,1.2376
+Deterministic,Reverse Sorted,5000,2500,2,6.4499
+Randomized,Reverse Sorted,5000,2500,2,2.3875
+Deterministic,Reverse Sorted,5000,2500,3,6.6132
+Randomized,Reverse Sorted,5000,2500,3,1.4939
+Deterministic,Reverse Sorted,5000,2500,4,6.8061
+Randomized,Reverse Sorted,5000,2500,4,1.2084
+Deterministic,Reverse Sorted,5000,2500,5,6.3951
+Randomized,Reverse Sorted,5000,2500,5,1.226
+Deterministic,Repeated,100,50,1,0.0545
+Randomized,Repeated,100,50,1,0.041
+Deterministic,Repeated,100,50,2,0.085
+Randomized,Repeated,100,50,2,0.0409
+Deterministic,Repeated,100,50,3,0.0497
+Randomized,Repeated,100,50,3,0.0329
+Deterministic,Repeated,100,50,4,0.0485
+Randomized,Repeated,100,50,4,0.0479
+Deterministic,Repeated,100,50,5,0.0563
+Randomized,Repeated,100,50,5,0.0228
+Deterministic,Repeated,500,250,1,0.4051
+Randomized,Repeated,500,250,1,0.1294
+Deterministic,Repeated,500,250,2,0.2278
+Randomized,Repeated,500,250,2,0.1577
+Deterministic,Repeated,500,250,3,0.2305
+Randomized,Repeated,500,250,3,0.1522
+Deterministic,Repeated,500,250,4,0.2263
+Randomized,Repeated,500,250,4,0.1985
+Deterministic,Repeated,500,250,5,0.2602
+Randomized,Repeated,500,250,5,0.1317
+Deterministic,Repeated,1000,500,1,0.4609
+Randomized,Repeated,1000,500,1,0.3693
+Deterministic,Repeated,1000,500,2,1.0491
+Randomized,Repeated,1000,500,2,0.3341
+Deterministic,Repeated,1000,500,3,0.7859
+Randomized,Repeated,1000,500,3,0.2469
+Deterministic,Repeated,1000,500,4,0.5142
+Randomized,Repeated,1000,500,4,0.308
+Deterministic,Repeated,1000,500,5,0.4575
+Randomized,Repeated,1000,500,5,0.2167
+Deterministic,Repeated,2000,1000,1,1.6473
+Randomized,Repeated,2000,1000,1,0.6085
+Deterministic,Repeated,2000,1000,2,0.8839
+Randomized,Repeated,2000,1000,2,0.4394
+Deterministic,Repeated,2000,1000,3,0.8827
+Randomized,Repeated,2000,1000,3,0.6297
+Deterministic,Repeated,2000,1000,4,0.8936
+Randomized,Repeated,2000,1000,4,0.4116
+Deterministic,Repeated,2000,1000,5,0.9016
+Randomized,Repeated,2000,1000,5,0.8988
+Deterministic,Repeated,5000,2500,1,2.2716
+Randomized,Repeated,5000,2500,1,0.9004
+Deterministic,Repeated,5000,2500,2,2.1953
+Randomized,Repeated,5000,2500,2,1.1415
+Deterministic,Repeated,5000,2500,3,2.1815
+Randomized,Repeated,5000,2500,3,0.7814
+Deterministic,Repeated,5000,2500,4,2.3573
+Randomized,Repeated,5000,2500,4,1.5166
+Deterministic,Repeated,5000,2500,5,2.2205
+Randomized,Repeated,5000,2500,5,0.9987
